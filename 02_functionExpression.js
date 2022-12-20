@@ -8,18 +8,21 @@ var showResult = function() {
 showResult();
 
 // We can store a function as value in JS
-var substraction = function(num1, num2){
-    var result = num1 - num2;
-    console.log("substraction.......", result);
+var eligibility = function(value1, value2){
+    var result = value1 > value2 ? value1 : value2 ;
+    console.log(" Greatest number.......", result);
     return result;
 }
-var result = substraction(45, 20);
+var result = eligibility( 45, 20);
 console.log(result);
 
 var square = function(num){
-console.log("Square of  ",num*num);
+var result = num*num;
+
+console.log("Square of  ",num, "is", result);
+return result;
 }
 console.log( typeof square);
-square(5);
-square(100);
-square(34);
+var result =square(5);
+var result =square(100);
+var result =square(34);

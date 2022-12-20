@@ -1,4 +1,4 @@
-console.log("======== concat() ==========");
+console.log("========== concat() ==========");
 var firstName = "Mohit ";
 var lastName = "Sharma";
 // Concatenation using + operator 
@@ -12,6 +12,8 @@ console.log("Index of character M: ", indexOf);
 
 var indexOfNin = greet.indexOf("nin");
 console.log("Index of substring nin: ", indexOfNin);
+
+
 
 var greet = "Good Morning";
 var greetAfterReplace =  greet.replace("Morning", "Afternoon");
