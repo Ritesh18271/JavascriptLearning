@@ -13,10 +13,10 @@ console.log(myHobby1, myHobby2,myHobby3);
 console.log(`My hobbies are ${myHobby1}, ${myHobby2} and ${myHobby3}` );
 
 console.log("----------------- Question 3------------------")
-var showResult = function strinTemplateAssign() {
+var strinTemplateAssig = function n() {
     console.log(" Successfully created function name with no argument and no return");
 };
-showResult();
+strinTemplateAssig();
 
 }
 stringTemplateAssign();

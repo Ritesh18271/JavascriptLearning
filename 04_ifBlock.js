@@ -6,7 +6,7 @@ console.log(`------------if block-------------`);
  }
   var num = -4;
   if (num<=0) {
-console.log(`Given number ${num} is Negative`);
+  console.log(`Given number ${num} is Negative`);
   }
 
   var num1 = 100;
