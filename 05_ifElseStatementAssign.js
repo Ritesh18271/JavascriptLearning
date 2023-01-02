@@ -1,33 +1,28 @@
 console.log("====================== Question 1 =====================");
 console.log("");
 
-var eligibilty = function(age){
+// var eligibilty = 
+var eligibilty=function (age){
     if (age <=0 || age> 120) {
-        console.log(`Invalid data: ${age}`);
+        console.log(`Invalid data: ${age}\n`);
        
     }
     else{
-        console.log(`Valid data`);
+        console.log(`Valid data\n`);
         if (age >= 18) {
-            console.log(`Congratulations your age is ${age}, you can vote `);            
+            console.log(`Congratulations your age is ${age}, you can vote \n`);            
         }
         else{
-            console.log(`Sorry your age is ${age}, you are minor`);
+            console.log(`Sorry your age is ${age}, you are minor\n`);
         }
     }
 }
 eligibilty(45);
-console.log(``);
 eligibilty(17);
-console.log(``);
 eligibilty(20);
-console.log(``);
 eligibilty(8);
-console.log(``);
 eligibilty(-10);
-console.log(``); 
 eligibilty(200);
-console.log(``);
 eligibilty(0);
 
 console.log("");
