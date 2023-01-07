@@ -12,8 +12,8 @@ class Vehicle{
 let bike= new Vehicle("Suzuki","Green","40","2 Wheeler","240kph");
 let car = new Vehicle("BMW","DarkBlue","45","4 Wheeler","300Kph");
 let truck= new Vehicle("Tata","Brown","10","12 Wheeler","150kph");
-let auto = new Vehicle("Bajaj","yellowBlack","18","3","80kph")
-let plane = new Vehicle("airIndia","white","12","6","930kph");
+let auto = new Vehicle("Bajaj","yellowBlack","20","3 Wheeler","80kph");
+let plane = new Vehicle("airIndia","white","12","6 Wheeler","930kph");
 
 console.log(bike);
 console.log("");

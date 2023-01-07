@@ -19,16 +19,16 @@ console.log("");
 
 
 console.log("-----------Question 2------------");
-function sumOf(value) {
-    var result =0 ;
+// function sumOf() {
+    var result=0 ;
     var cube;
     for (let index = 1; index <=5; index++) {
        cube = index * index * index;
        result = result + cube;
     }
     console.log(`The Sum of number from 1 to 5 is : ${result}`);
-}
-sumOf();
+// }
+// sumOf();
 
 console.log("-----------Question 3------------");
 function oddChars(arg) {

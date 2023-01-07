@@ -43,9 +43,9 @@ console.log("the character at index 11 is : ", statement.charAt(11));
 
 var lengthTotal= statement.length
 console.log("the character at last index is : ", statement.charAt(lengthTotal-1));
-console.log("the first character of string is : ", statement.charAt(1));
+console.log("the first character of string is : ", statement.charAt(0));
 
 var length= function(val){
     console.log("the Square of length of a string is : ", val*val);
 }
-length(31)
+length(lengthTotal)

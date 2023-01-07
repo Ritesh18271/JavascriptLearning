@@ -10,6 +10,7 @@ for (let index = 50; index >=40; index--) {
     console.log(index);
     
 }
+
 console.log("...#3 Odd Numbers");
 for (let index = 1; index <=15; index=index+2) {
    console.log(index);
