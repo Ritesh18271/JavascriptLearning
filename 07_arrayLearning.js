@@ -87,6 +87,7 @@ console.log(arrayOfNum);
 
 console.log(`======== pop() methods=========`);
 var arrayOfNum = [4, 5, 6, 8, 9, 33];
+console.log(arrayOfNum);
 let popResult = arrayOfNum.pop();
 console.log(popResult);
 console.log(arrayOfNum);

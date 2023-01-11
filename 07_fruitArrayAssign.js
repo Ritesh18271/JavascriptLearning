@@ -58,4 +58,4 @@ class Fruits{
     
 }
 let fruitBanana  = new Fruits("orange","orange","sour","circular");
-console.log(fruitBanana.name,fruitBanana.shape,fruitBanana.taste);
+console.log(fruitBanana.name,fruitBanana.shape,fruitBanana.taste1);
