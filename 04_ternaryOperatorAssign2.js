@@ -23,3 +23,4 @@ console.log("");
  }
  femaleMarriageEligibility("female",16,"Jenifer");
  femaleMarriageEligibility("female",27,"Malinda Gates");
+ femaleMarriageEligibility("female",18,"Jana anna");

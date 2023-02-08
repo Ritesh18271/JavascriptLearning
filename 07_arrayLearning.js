@@ -97,7 +97,7 @@ console.log(`======== shift() methods=========`);
 var arrayOfNum = [4, 5, 6, 8, 9, 33];
 let shiftResult = arrayOfNum.shift();
 console.log(shiftResult);
-console.log(arrayOfNum);
+console.log(arrayOfNum.shift);
 
 
 console.log(`======== slice() methods=========`);

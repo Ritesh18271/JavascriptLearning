@@ -2,6 +2,8 @@ console.log(city);
 
 var city = "Pune";
 
+console.log(name);
+let name = "ritesh";
 
 let state = "MH";
 console.log(state);

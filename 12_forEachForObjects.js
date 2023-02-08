@@ -28,7 +28,7 @@ let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
     setOfVehicles.add(honda);
     setOfVehicles.add(hero);
     setOfVehicles.forEach( (itemVehicle)=> {
-        console.log(itemVehicle.model);
+        console.log(itemVehicle.company,itemVehicle.price);
     } );
 
     console.log("====== Map of Vehicles =======");

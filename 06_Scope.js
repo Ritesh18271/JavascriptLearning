@@ -8,7 +8,7 @@ console.log(actorName);
 var isMarried = true;
 if (isMarried) {
   let greet = "Congratulation";
-  //console.log(greet);
+  console.log(greet);
 }
 //console.log(greet);
 

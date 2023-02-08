@@ -39,3 +39,9 @@ let division = (val1,val2)=>{
 };
 let number =division(50,5);
 console.log(number);
+
+const fruits=["Apple","Mango","Orange","Strawberry"];
+for (const element in fruits) {
+    console.log(fruits[element]);
+    }
+   

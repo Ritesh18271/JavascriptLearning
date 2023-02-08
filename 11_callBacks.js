@@ -1,10 +1,10 @@
 // Given the home work
 
 // Ritesh -> Homework
-function riteshHomeWork(callback){
+function riteshHomeWork(completeHomework){
     console.log("Ritesh is doing homework... ");
     console.log("After some time.. Ritesh did homework..");
-    callback();
+    completeHomework();
 }
 
 // Sayali -> Homework

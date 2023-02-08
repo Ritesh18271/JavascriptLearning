@@ -12,3 +12,5 @@ eligibility(70,65,55, "Monika");
 console.log("");
 eligibility(60,79,88, "Muskan");
 
+
+

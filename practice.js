@@ -266,3 +266,86 @@ for (let index = 7; index <=70; index=index+7) {
       console.log(index);;
     
 }
+
+console.log("----------------------------------");
+class Employee {
+
+    constructor(emp_id, emp_name, emp_dept, emp_salary, emp_company) {
+    
+    this.emp_id=emp_id;
+    
+    this.emp_name = emp_name;
+    
+    this.emp_dept = emp_dept;
+    
+    this.emp_salary = emp_salary;
+    
+    this.emp_company = emp_company;
+    
+    }
+}
+    const emp_anil = new Employee (22, "Anil", "IT", 50000, "TCS");
+    
+    const emp_radha = new Employee (33, "Radha", "HR", 74000, "Wipro");
+    
+    const emp_rishi = new Employee (55, "Rishi", "Finance", 47000, "TCS");
+    
+    const emp_sonali = new Employee (66, "Sonali", "Finance", 45000, "Infy");
+    
+    const emp_monika = new Employee (77, "Monika", "IT", 40000, "Wipro");
+    
+    const emp_viny = new Employee (88, "Vinayak", "IT", 75000, "TCS");
+    
+    const emp_mahi = new Employee (99, "Mahesh", "HR", 85000, "Infy");
+    
+    array_emps=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi];
+
+    let average = array_emps.reduce((currentValue,value)=>{
+         return currentValue+value.emp_salary
+    },0);
+    console.log(average/array_emps.length);
+    let result1=0;
+    let itArray =array_emps.filter((avIt)=>{
+        if (avIt.emp_dept=="IT") {
+            return result1+=avIt.emp_salary
+        }
+    });
+      console.log(result1/itArray.length);
+      
+  // array sorting
+  console.log("ascending order");
+  const array_roll_numbers=[113,45,56,11,32,45,109,799,56,45];
+ array_roll_numbers.sort((a,b)=>{
+   return a > b ? 1:-1 ;
+});
+console.log(array_roll_numbers);
+
+// deleting duplicates
+console.log("deleting duplicates");
+let mySet = new Set(array_roll_numbers)
+console.log(mySet);
+
+// even numbers from array
+console.log("even nums duplicates");
+let evenNums=[];
+array_roll_numbers.filter((currentValue)=>{
+    if (currentValue%2==0) {
+        evenNums.push(currentValue)
+       
+    }
+
+});
+console.log(evenNums);
+// sum of eleven numbers
+console.log("Sum of even numbers");
+evenNums.reduce((runningTotal,value)=>{
+   return result= runningTotal+value
+});
+console.log(result);
+// By using filter and reduce at same variable
+console.log("By using filter and reduce at same variable");
+let evenNums1=array_roll_numbers.filter(value=>value%2==0)
+            .reduce((currentValue,value)=> currentValue+value)
+            console.log(evenNums1);
+
+            

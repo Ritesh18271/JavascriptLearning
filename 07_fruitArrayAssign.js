@@ -57,5 +57,8 @@ class Fruits{
     }
     
 }
-let fruitBanana  = new Fruits("orange","orange","sour","circular");
-console.log(fruitBanana.name,fruitBanana.shape,fruitBanana.taste1);
+let fruitOrange  = new Fruits("orange","orange","sour","circular");
+console.log(fruitOrange.name,fruitOrange.shape,fruitOrange.taste);
+
+let fruitMango = new Fruits("Mango","yellow","Sweet & sour","Mango shape");
+console.log(fruitMango.name,fruitMango.color,fruitMango.shape,fruitMango.taste);

@@ -10,3 +10,7 @@ console.log(`resultMul is : ${resultMul}`);
 
 var num = new Number("Prathamesh"); 
 console.log(`num is: ${num}`);
+
+var num = ("18"); 
+console.log(typeof +num);
+

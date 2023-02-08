@@ -29,10 +29,11 @@ console.log( "After swap :", Virat, Anushka);
 swapValuesDude("Virat","Anushka");
 swapValuesDude(1000,2000);
 console.log("===================== Question 4th ======================");
-function addThreeValues(val1, val2, val3){
+var  addThreeValues = function(val1, val2, val3){
 console.log("Addition Of Three Values :" ,val1+val2+val3);
 return "Addition";
  }
  var Addition = addThreeValues(10.23, 600, 40);
  
  var Addition = addThreeValues( "Hello", "Good","Morning");
+

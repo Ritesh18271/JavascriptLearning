@@ -13,6 +13,7 @@ const person = {
 let { pinCode, totalRun,  city, isMarried, wifeName="Anushka"} = person; // Object Destructuring 
 
 console.log(pinCode, totalRun, city, isMarried, wifeName );
+console.log(person);
 
 
 
